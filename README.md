@@ -4,7 +4,6 @@ This repository accompanies the manuscript:
 
 **“Enhanced Spatiotemporal Degradation Modeling: A Robust Hybrid CNN–LSTM Approach”**
 
-submitted to *The Visual Computer*.
 
 If you use this dataset, code, or benchmark framework in your research, please cite the corresponding article.
 
