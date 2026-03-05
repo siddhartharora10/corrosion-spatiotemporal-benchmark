@@ -71,6 +71,20 @@ If you use this dataset or code in your research, please cite:
 }
 The code and dataset are released to support reproducible research in spatiotemporal surface degradation modeling.
 
+## Repository Structure
+
+dataset_generator/      Synthetic corrosion dataset generator
+
+models/                 CNN and CNN–LSTM architecture implementation
+
+training/               Training scripts and model optimization
+
+evaluation/             Performance evaluation and robustness testing
+
+visualization/          Grad-CAM visualization and interpretability tools
+
+configs/                Experimental configuration files
+
 ## Installation
 
 Create environment:
