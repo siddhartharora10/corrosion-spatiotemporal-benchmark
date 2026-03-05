@@ -60,6 +60,17 @@ Permanent archive:
 DOI: **10.5281/zenodo.18737669**
 
 ---
+### Citation
+
+If you use this dataset or code in your research, please cite:
+
+@article{Arora2026_spatiotemporal_corrosion,
+  author  = {Siddharth Arora},
+  title   = {Enhanced Spatiotemporal Degradation Modeling: A Robust Hybrid CNN--LSTM Approach},
+  year    = {2026},
+  note    = {Research manuscript}
+}
+The code and dataset are released to support reproducible research in spatiotemporal surface degradation modeling.
 
 ## Installation
 
@@ -67,5 +78,28 @@ Create environment:
 
 ```bash
 conda create -n corrosion_env python=3.10
+
+## Quick Start (Reproducibility Guide)
+
+This repository provides the dataset generator, training pipeline, and evaluation scripts for reproducing the experiments reported in the manuscript.
+
+### 1. Clone the Repository
+git clone https://github.com/siddhartharora10/corrosion-spatiotemporal-benchmark.git
+cd corrosion-spatiotemporal-benchmark
+
+### 2. Install Dependencies
+pip install -r requirements.txt
+
+### 3. Generate the Synthetic Dataset
+python dataset_generator.py
+
+### 4. Train the CNN–LSTM Model
+python train_hybrid_model.py
+
+### 5. Evaluate the Model
+python evaluate_model.py
+
+### 6. Generate Grad-CAM Visualizations
+python gradcam_visualization.py
 conda activate corrosion_env
 pip install -r requirements.txt
