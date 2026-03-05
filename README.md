@@ -1,3 +1,15 @@
+## Related Research Article
+
+This repository accompanies the manuscript:
+
+**“Enhanced Spatiotemporal Degradation Modeling: A Robust Hybrid CNN–LSTM Approach”**
+
+submitted to *The Visual Computer*.
+
+If you use this dataset, code, or benchmark framework in your research, please cite the corresponding article.
+
+Zenodo Archive (Dataset & Code):
+https://doi.org/10.5281/zenodo.18737669
 # Robust Hybrid CNN–LSTM Framework for Spatiotemporal Surface Degradation Modeling
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18737669.svg)](https://doi.org/10.5281/zenodo.18737669)
